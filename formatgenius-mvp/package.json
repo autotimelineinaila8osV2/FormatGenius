@@ -1,0 +1,27 @@
+{
+  "name": "formatgenius",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "predev": "node scripts/generate-sample-docx.js",
+    "prebuild": "node scripts/generate-sample-docx.js",
+    "build:sample": "node scripts/generate-sample-docx.js",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "lucide-react": "0.453.0",
+    "docx": "8.5.0",
+    "pdf-lib": "1.17.1",
+    "tailwindcss": "3.4.10",
+    "postcss": "8.4.45",
+    "autoprefixer": "10.4.20"
+  },
+  "devDependencies": {
+    "typescript": "5.4.5"
+  }
+}
